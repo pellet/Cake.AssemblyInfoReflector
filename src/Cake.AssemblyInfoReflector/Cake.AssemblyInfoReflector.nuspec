@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <version>Dummy</version>
+    <description>Cake Addin for retrieving assembly info from an existing assembly.</description>
+    <authors>wexman</authors>
+    <projectUrl>http://github.com/wexman/Cake.AssemblyInfoReflector</projectUrl>
+  </metadata>
+   <files>
+    <file src="bin\Release\Cake.AssemblyInfoReflector.dll;bin\Release\Mono.Cecil*.dll" target="lib\net45\" />
+  </files>
+</package>
