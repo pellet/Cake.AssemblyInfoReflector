@@ -1,7 +1,4 @@
 #addin "Cake.FileHelpers"
-#addin "Nuget.Core"
-
-using NuGet;
 
 var target = Argument("target", "Default");
 var configuration = Argument("configuration", "Release");

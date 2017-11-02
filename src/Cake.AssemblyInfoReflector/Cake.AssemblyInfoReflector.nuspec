@@ -7,6 +7,6 @@
     <projectUrl>http://github.com/wexman/Cake.AssemblyInfoReflector</projectUrl>
   </metadata>
    <files>
-    <file src="bin\Release\Cake.AssemblyInfoReflector.dll;bin\Release\Mono.Cecil*.dll" target="lib\net45\" />
+    <file src="bin/Release/Cake.AssemblyInfoReflector.dll;bin/Release/Mono.Cecil*.dll" target="lib/net462" />
   </files>
 </package>
